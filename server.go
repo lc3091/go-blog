@@ -1,17 +1,17 @@
 package main
 
 import (
-	"github.com/easykoo/binding"
-	"github.com/easykoo/sessions"
+	"github.com/lc3091/binding"
+	"github.com/lc3091/sessions"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 	"github.com/russross/blackfriday"
 
-	. "github.com/easykoo/go-blog/auth"
-	. "github.com/easykoo/go-blog/common"
-	"github.com/easykoo/go-blog/handler"
-	"github.com/easykoo/go-blog/middleware"
-	"github.com/easykoo/go-blog/model"
+	. "github.com/lc3091/go-blog/auth"
+	. "github.com/lc3091/go-blog/common"
+	"github.com/lc3091/go-blog/handler"
+	"github.com/lc3091/go-blog/middleware"
+	"github.com/lc3091/go-blog/model"
 
 	"encoding/gob"
 	"html/template"
@@ -52,7 +52,7 @@ func newMartini() *martini.ClassicMartini {
 					return args[0].(time.Time).Format("2006-01-02 15:04")
 				},
 				"mdToHtml": func(args ...interface{}) template.HTML {
-					return template.HTML(string(blackfriday.MarkdownBasic([]byte(args[0].(string)))))
+					return template.HTML(string(blackfriday.Run([]byte(args[0].(string)))))
 				},
 				"unescaped": func(args ...interface{}) template.HTML {
 					return template.HTML(args[0].(string))

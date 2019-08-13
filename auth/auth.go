@@ -3,9 +3,9 @@ package auth
 import (
 	"github.com/go-martini/martini"
 
-	. "github.com/easykoo/go-blog/common"
-	"github.com/easykoo/go-blog/middleware"
-	"github.com/easykoo/go-blog/model"
+	. "github.com/lc3091/go-blog/common"
+	"github.com/lc3091/go-blog/middleware"
+	"github.com/lc3091/go-blog/model"
 
 	"reflect"
 )

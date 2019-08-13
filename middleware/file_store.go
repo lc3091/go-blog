@@ -4,7 +4,7 @@ import (
 	"github.com/gorilla/securecookie"
 	. "github.com/gorilla/sessions"
 
-	. "github.com/easykoo/go-blog/common"
+	. "github.com/lc3091/go-blog/common"
 
 	"encoding/base32"
 	"io"

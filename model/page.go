@@ -1,7 +1,7 @@
 package model
 
 import (
-	. "github.com/easykoo/go-blog/common"
+	. "github.com/lc3091/go-blog/common"
 )
 
 type SortProperty struct {

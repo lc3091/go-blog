@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/go-martini/martini"
 
-	. "github.com/easykoo/go-blog/common"
+	. "github.com/lc3091/go-blog/common"
 
 	"net/http"
 	"time"

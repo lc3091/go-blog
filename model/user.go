@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/easykoo/binding"
+	"github.com/lc3091/binding"
 
-	. "github.com/easykoo/go-blog/common"
+	. "github.com/lc3091/go-blog/common"
 
 	"net/http"
 	"regexp"

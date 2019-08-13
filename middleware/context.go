@@ -1,13 +1,13 @@
 package middleware
 
 import (
-	"github.com/easykoo/sessions"
+	"github.com/lc3091/sessions"
 	"github.com/go-martini/martini"
-	"github.com/easykoo/binding"
+	"github.com/lc3091/binding"
 	"github.com/martini-contrib/render"
 
-	. "github.com/easykoo/go-blog/common"
-	"github.com/easykoo/go-blog/model"
+	. "github.com/lc3091/go-blog/common"
+	"github.com/lc3091/go-blog/model"
 
 	"net/http"
 )

@@ -4,8 +4,8 @@ import (
 	"github.com/gorilla/securecookie"
 	. "github.com/gorilla/sessions"
 
-	. "github.com/easykoo/go-blog/common"
-	"github.com/easykoo/go-blog/model"
+	. "github.com/lc3091/go-blog/common"
+	"github.com/lc3091/go-blog/model"
 
 	"encoding/base32"
 	"net/http"
